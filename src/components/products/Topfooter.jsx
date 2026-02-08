@@ -52,10 +52,10 @@ const footerSection = [
 
 export default function Footer() {
     return (
-        <section>
+        <section className="d-flex">
             {footerSection.map((section) => (
                 <div key={section.id}>
-                    <div>
+                    <div className="flex-container">
                         <h2>{section.title}</h2>
                         <ul>
                             {section.link.map((link, linkIndex) => (
@@ -69,9 +69,8 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
-            )
-            )
-            }
+            ))}
+            <img className="footer-img" src="src/img/dc-logo-bg.png" />
         </section>
     )
 }

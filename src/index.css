@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+li a {
+    text-decoration: none;
+}
+
 /* Header */
 
 header {
@@ -13,19 +17,18 @@ header {
 }
 
 
-ul {
+header ul {
     padding: 3rem;
     display: flex;
 }
 
 ul li {
     list-style-type: none;
-    font-weight: bold;
+
 }
 
-ul li a {
+header li a {
     padding: 2rem;
-    text-decoration: none;
     color: black;
 }
 
@@ -47,16 +50,28 @@ main {
 }
 
 /* footer */
-footer ul {
-    font-size: x-small;
-    column-count: 3;
-    column-gap: 20px;
-    list-style-position: inside;
-    display: flex;
-    flex-direction: column;
+footer {
+    background-image: url("/src/img/footer-bg.jpg");
+    padding: 2rem;
 
 }
 
+footer ul li a {
+    font-size: x-small;
+    color: gray;
+}
+
+footer ul {
+    text-align: left;
+}
+
 h2 {
+    text-align: center;
     font-size: medium;
+    color: white;
+}
+
+.footer-img {
+    height: 400px;
+    padding-left: 50rem;
 }
