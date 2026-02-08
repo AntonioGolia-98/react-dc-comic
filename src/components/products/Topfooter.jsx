@@ -48,4 +48,30 @@ const footerSection = [
             { label: "DC Power Visa", href: "#" },
         ],
     },
-]
+];
+
+export default function Footer() {
+    return (
+        <section>
+            {footerSection.map((section) => (
+                <div key={section.id}>
+                    <div>
+                        <h2>{section.title}</h2>
+                        <ul>
+                            {section.link.map((link, linkIndex) => (
+                                <li key={linkIndex}>
+                                    <a href={link.href}>
+                                        {link.label}
+                                    </a>
+                                </li>
+
+                            ))}
+                        </ul>
+                    </div>
+                </div>
+            )
+            )
+            }
+        </section>
+    )
+}

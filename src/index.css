@@ -29,6 +29,7 @@ ul li a {
     color: black;
 }
 
+/* main */
 main {
     background-color: black;
 }
@@ -43,4 +44,19 @@ main {
     align-items: center;
     gap: 20%;
     font-size: small;
+}
+
+/* footer */
+footer ul {
+    font-size: x-small;
+    column-count: 3;
+    column-gap: 20px;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h2 {
+    font-size: medium;
 }
