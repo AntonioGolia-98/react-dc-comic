@@ -37,6 +37,10 @@ main {
     background-color: black;
 }
 
+main p {
+    color: white;
+}
+
 .imgMainCard {
     height: 50px;
 }

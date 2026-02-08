@@ -50,7 +50,7 @@ const footerSection = [
     },
 ];
 
-export default function Footer() {
+export default function Topfooter() {
     return (
         <section className="d-flex">
             {footerSection.map((section) => (
