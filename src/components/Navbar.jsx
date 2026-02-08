@@ -24,7 +24,7 @@ const Navbar = () => {
     });
 
     return (
-        <nav id="top-navbar" >
+        <nav>
             <ul>
                 {linkList}
             </ul>
