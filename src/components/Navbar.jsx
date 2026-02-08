@@ -15,7 +15,7 @@ const Navbar = () => {
 
     const linkList = links.map(links => {
         return (
-            <li key={links.id}>
+            <li className="d-flex p-1 pt-5 nav-header" key={links.id}>
                 <a href={links.url}>
                     {links.text}
                 </a>
@@ -25,7 +25,7 @@ const Navbar = () => {
 
     return (
         <nav>
-            <ul>
+            <ul className="d-flex">
                 {linkList}
             </ul>
         </nav >

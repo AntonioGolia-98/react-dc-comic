@@ -8,14 +8,13 @@ const Footerbar = [
 
 export default function Buttonfuter() {
     return (
-        <section className="d-flex justify-content-between">
-            <button>JOIN-US NOW!</button>
+        <section className="d-flex bg-button-footer justify-content-between">
+            <button className="btn-footer ">JOIN-US NOW!</button>
             <div>
-                <p>follow us </p>
                 <ul className="d-flex">
                     {Footerbar.map((section) => (
                         <li key={section.id}>
-                            <img src={section.src} alt={section.text} />
+                            <img className="logo-footer" src={section.src} alt={section.text} />
                         </li>
                     ))}
                 </ul>

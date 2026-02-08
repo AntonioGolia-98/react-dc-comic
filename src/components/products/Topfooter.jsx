@@ -52,7 +52,7 @@ const footerSection = [
 
 export default function Topfooter() {
     return (
-        <section className="d-flex">
+        <section className="d-flex bg-top-footer">
             {footerSection.map((section) => (
                 <div key={section.id}>
                     <div className="flex-container">

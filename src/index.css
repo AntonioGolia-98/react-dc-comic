@@ -9,28 +9,12 @@ li a {
 }
 
 /* Header */
-
-header {
+.nav-header a {
     display: flex;
-    margin-top: 3rem;
-    margin-left: 2rem;
-}
-
-
-header ul {
-    padding: 3rem;
-    display: flex;
-}
-
-ul li {
-    list-style-type: none;
-
-}
-
-header li a {
-    padding: 2rem;
     color: black;
+    padding-right: 2rem;
 }
+
 
 /* main */
 main {
@@ -54,10 +38,9 @@ main p {
 }
 
 /* footer */
-footer {
-    background-image: url("/src/img/footer-bg.jpg");
-    padding: 2rem;
 
+.bg-top-footer {
+    background-image: url("/src/img/footer-bg.jpg");
 }
 
 footer ul li a {
@@ -67,9 +50,11 @@ footer ul li a {
 
 footer ul {
     text-align: left;
+    padding-left: 2rem;
 }
 
 h2 {
+    padding: 1rem;
     text-align: center;
     font-size: medium;
     color: white;
@@ -78,4 +63,25 @@ h2 {
 .footer-img {
     height: 400px;
     padding-left: 50rem;
+}
+
+.logo-footer {
+    padding: 1rem;
+}
+
+.text-footer {
+    font-size: xx-large;
+    color: blue;
+}
+
+.bg-button-footer {
+    background-color: #303030
+}
+
+.btn-footer {
+    margin: 1rem;
+    background-color: #303030;
+    color: white;
+    border-color: blue;
+    height: 40px;
 }
